@@ -25,6 +25,8 @@ if length(sys.argv) == 3:
         outputFile = open('combined.pdf', 'wb')
         writer.write(outputFile)
         outputFile.close()
+        pdf1File.close()
+        pdf2File.close()
     except:
         print('error')
 else:
